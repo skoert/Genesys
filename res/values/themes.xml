@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="MiTema"
+           parent="Theme.Sherlock.Light.DarkActionBar">
+        <item name="actionBarStyle">@style/Widget.Styled.ActionBar</item>
+        <item name="android:actionBarStyle">@style/Widget.Styled.ActionBar</item>
+         <item name="android:homeAsUpIndicator">@drawable/ic_action_collections_view_as_grid</item>
+    </style>
+    <style name="Widget.Styled.ActionBar"
+           parent="Widget.Sherlock.Light.ActionBar.Solid.Inverse">
+        <item name="background">@drawable/fondoactionbar</item>
+         <item name="android:homeAsUpIndicator">@drawable/ic_action_collections_view_as_grid</item>
+        <item name="android:background">@drawable/fondoactionbar</item>
+    </style>
+</resources>
